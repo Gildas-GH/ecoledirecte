@@ -15,3 +15,7 @@ Voici un style rouge et material design! Vous pouvez changer l'image de fond en 
 - design du header revu pour prendre moins de place
 - style globalement optimisé pour l'interface Elève
 - Emploi du temps gris
+
+# Changelog (1.1)
+- Header retouché : lors du passage de la souris sur un élément, celui ci change de couleur
+- nouvelles couleurs pour le cahier de texte
