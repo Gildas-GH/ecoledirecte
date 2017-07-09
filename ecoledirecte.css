@@ -5,7 +5,8 @@
     background: url(https://becauseofprog.fr/img/bg.jpg); /* image d'arriere plan */
   }
   .circular {
-    background: url('https://cdn.discordapp.com/avatars/158571429183356937/bee6ad2a83c89ed19d2f64ba4cfefe2a.jpg?size=128')!important; /*Votre image entre les ' ' */
+    background: url('/*[[picture]]*/')!important; /*Votre image entre les ' ' */
+    background-size: cover !important;
   }
   .login-container {background-color: #ccc; padding: 20px 40px 0px;}
   .login-container::after, .login-container::before, hr, .avatar, .checkbox, .form-box a {display:none;}
@@ -52,4 +53,16 @@
   img.logo-etab {width: 350px;height: auto;}
   .contact-etab a {color: #B71C1C;}
   .MsoNormal {margin-right: 5px;}
+  .form-horizontal .control-label {font-size:14px;font-weight:300;}
+  .btn-success:not(.btn-link):not(.btn-flat){color: white;}
+  .btn-danger:not(.btn-link):not(.btn-flat), .btn-material-red:not(.btn-link):not(.btn-flat){color: white;}
+  .encart-notes table, .table > tbody + tbody, tr, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {border:none!important;}
+  .table-hover > tbody > tr:hover > td {background-color:#F9F9F9;}
+  .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {line-height:30px;font-size: 13px;}
+  .dhx_cal_navline .dhx_cal_export.pdf {background-image: url(https://gh.becauseofprog.fr/up/ec-pdf.png);border-radius: 5px;}
+  .filtres-agenda .agenda-selected{font-weight: 300;font-size: 13px;}
+  .cahierdetexteimprimable{background-color: #f8f8f8;}
+  .cahierdetexte li.onglet-jour a, .cahierdetexte li.onglet-secondary a{background-color: #eaeaea !important;}
+  .ongletjour.tabs-right > li.active > a{background-color: #e1e1e1 !important;}
+  #item-contact:hover,#item-compteUtilisateur:hover,#item-deconnexion:hover{background-color: #AB1A1A!important;}
 }
